@@ -59,3 +59,15 @@
 .icon-menu:before {
   content: "\42";
 }
+.icon-phone:before {
+  content: "\61";
+}
+.icon-facebook-1:before {
+  content: "\62";
+}
+.icon-twitter-1:before {
+  content: "\63";
+}
+.icon-envelope:before {
+  content: "\64";
+}
