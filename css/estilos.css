@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6{
   width: 100%;
   margin: auto;
 }
-.container__flex{
+.container--flex{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -181,6 +181,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .columna__title{
   font-size: 1.3em;
+
 }
 .main__about__Description .columna:nth-child(2) {
   padding: 10px;
@@ -222,6 +223,10 @@ h1, h2, h3, h4, h5, h6{
   color: #DE423A;
   font-weight: bold;
 }
+.columnacolumna--50 {
+  display:flex;
+
+}
 
 /*--------------------- Estilos del footer----------------*/
 
@@ -252,7 +257,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*----------------Estilos del responsive-----------------*/
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
   .logo{
     color: white;
   }
@@ -265,14 +270,24 @@ h1, h2, h3, h4, h5, h6{
   .main-header__contactInfo__ubicacion{
     color: white;
   }
-  .banner{
-    margin-top: -270px;
-    z-index: -1000;
-  }
+
   .columnacolumna--50 {
-    width: 49%;
+    width: 50%;
   }
   .main-nav{
     background: rgba(0, 0, 0, 0.85);
+  }
+  .banner{
+    margin-top: -150px;
+    z-index: -1000;
+  }
+  .banner__content {
+    font-size: 2em;
+  }
+  .columnacolumna--50 {
+    width: 50%;
+  }
+  .columna--50-25 {
+    width: 50%;
   }
 }
