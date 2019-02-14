@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6{
   align-items: center;
 }
 .columna{
-  width: 100%;
+  width: 50%;
 
 }
 
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6{
   font-weight: bold;
 }
 .columnacolumna--50 {
-  display:flex;
+  width: 50%;
 
 }
 
@@ -273,6 +273,7 @@ h1, h2, h3, h4, h5, h6{
 
   .columnacolumna--50 {
     width: 50%;
+
   }
   .main-nav{
     background: rgba(0, 0, 0, 0.85);
@@ -284,10 +285,24 @@ h1, h2, h3, h4, h5, h6{
   .banner__content {
     font-size: 2em;
   }
-  .columnacolumna--50 {
-    width: 50%;
-  }
+
   .columna--50-25 {
     width: 50%;
   }
+  .main__about__Description .columna:nth-child(2) {
+    padding-left: : 30px;
+    font-size: .9em;
+  }
+  .main__about__Description  .btn {
+    margin: 0;
+  }
+  .especiales-dehoy .columna {
+    border: 5px solid #ddd;
+    padding: 5px;
+  }
+  .especiales-dehoy__img {
+    height: 200px;
+    object-fit: cover;
+  }
+
 }
