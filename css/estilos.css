@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6{
   font-size: 1.3em;
 
 }
-.main__about__Description .columna:nth-child(2) {
+.main__Description .columna:nth-child(2) {
   padding: 10px;
 }
 .btn{
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .especial-dehoy__img{
   margin: auto;
-  max-width: 350px;
+
 }
 .title-especial-dehoy{
   text-align: center;
@@ -237,9 +237,12 @@ h1, h2, h3, h4, h5, h6{
   padding: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: .8em;
-}
 
+}
+.columnacolumna--50-25 {
+
+
+}
 .copy {
   text-align: center;
   margin: auto;
@@ -254,6 +257,14 @@ h1, h2, h3, h4, h5, h6{
   position: relative;
   top: 3px;
   right: 5px;
+}
+
+.columna-33-3{
+  width:33.3%;
+  float: left;
+}
+.container__flex p {
+  margin-bottom: 30px;
 }
 
 /*----------------Estilos del responsive-----------------*/
@@ -273,8 +284,11 @@ h1, h2, h3, h4, h5, h6{
 
   .columnacolumna--50 {
     width: 50%;
-
   }
+  .columnacolumna--50-25 {
+    width: 50%;
+  }
+
   .main-nav{
     background: rgba(0, 0, 0, 0.85);
   }
@@ -285,15 +299,11 @@ h1, h2, h3, h4, h5, h6{
   .banner__content {
     font-size: 2em;
   }
-
-  .columna--50-25 {
-    width: 50%;
-  }
-  .main__about__Description .columna:nth-child(2) {
+  .main__Description .columna:nth-child(2) {
     padding-left: : 30px;
     font-size: .9em;
   }
-  .main__about__Description  .btn {
+  .main__Description  .btn {
     margin: 0;
   }
   .especiales-dehoy .columna {
@@ -304,5 +314,14 @@ h1, h2, h3, h4, h5, h6{
     height: 200px;
     object-fit: cover;
   }
+  .columna-33-3{
+    width:33.3%;
+    float: left;
+  }
+  .container__flex p {
+    margin-bottom: 30px;
+  }
+
+
 
 }
