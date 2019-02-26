@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6{
 .menu__link{
   display: block;
   padding: 15px;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 
 }
@@ -260,11 +260,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .columna-33-3{
-  width:33.3%;
+  width:50%;
   float: left;
+  padding-left:50px;
 }
 .container__flex p {
   margin-bottom: 30px;
+
 }
 
 /*----------------Estilos del responsive-----------------*/
@@ -315,11 +317,13 @@ h1, h2, h3, h4, h5, h6{
     object-fit: cover;
   }
   .columna-33-3{
-    width:33.3%;
+    width:50%;
     float: left;
+    padding:20px
   }
   .container__flex p {
     margin-bottom: 30px;
+    padding:
   }
 
 
