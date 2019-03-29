@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico');
 *{
   box-sizing: border-box;
+
 }
 body{
   font-family: 'Montserrat',sans-serif;
   margin: 0;
+  background: #FCF9F8;
 }
 
 /*--------------------Estilos base---------------------*/
@@ -36,20 +38,24 @@ h1, h2, h3, h4, h5, h6{
 }
 .logo{
   font-size: 1.8em;
-  color: #DE423A;
+  color: white;
   padding: 10px;
   font-family: 'Pacifico', cursive;
   font-weight: 100;
 }
+.main-header__contactInfo{
+  /*a considerar*/
+}
 .main-header__contactInfo__telefono{
-  background: #DE423A;
+  background: #E15934;
   color: white;
   margin: 0 auto;
   padding: 10px;
 }
 .main-header__contactInfo__ubicacion{
-  padding: 10px;
+  padding-top:10px;
   margin: 0;
+  color: white;
 }
 .main-header[class*="icon-"]:before {
   position: relative;
@@ -63,11 +69,11 @@ h1, h2, h3, h4, h5, h6{
   position: relative;
   z-index: 2000;
   padding: 10px;
+  background: black;
 }
 .icon-menu{
   display: block;
   color: white;
-  margin-bottom: -30px;
   border: 1px solid white;
   border-radius: 3px;
   width: 40px;
@@ -81,7 +87,7 @@ h1, h2, h3, h4, h5, h6{
 .social-icon{
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 20px;
+
   cursor: pointer;
 
 }
@@ -126,7 +132,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .menu__link:hover {
-  background: red;
+  background: #E15934;
 }
 .mostrar {
   height: 196px;
@@ -135,8 +141,9 @@ h1, h2, h3, h4, h5, h6{
 
 /*----------------Estilos de Banner--------------------*/
 .banner {
-  margin-top: -80px;
+  margin-top: -200px;
   position: relative;
+  z-index: -1001;
 }
 .banner:before {
   content: '';
@@ -149,7 +156,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .banner__img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   object-fit:cover;
 }
 .banner__content {
@@ -166,9 +173,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*----------------------Estilos Principales------------------------*/
-
 .grupo--color .container {
-  background: #DE423A;
+  background: #E15934;
   color: white;
   padding: 10px;
   text-align: center;
@@ -191,7 +197,7 @@ h1, h2, h3, h4, h5, h6{
   text-align: center;
   text-decoration: none;
   width: 120px;
-  background: #DE423A;
+  background: #E15934;
   color: white;
   padding: 10px;
   margin: 10px auto;
@@ -202,6 +208,7 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 100;
   font-size: 1.8em;
   margin:30px;
+
 }
 .grupoespeciales-dehoy .columna {
   margin-bottom: 30px;
@@ -220,12 +227,11 @@ h1, h2, h3, h4, h5, h6{
 .precio-especial-dehoy {
   text-align: center;
   font-size: 1.5em;
-  color: #DE423A;
+  color: #E15934;
   font-weight: bold;
 }
 .columnacolumna--50 {
   width: 50%;
-
 }
 
 /*--------------------- Estilos del footer----------------*/
@@ -239,10 +245,7 @@ h1, h2, h3, h4, h5, h6{
   padding-bottom: 20px;
 
 }
-.columnacolumna--50-25 {
 
-
-}
 .copy {
   text-align: center;
   margin: auto;
@@ -260,8 +263,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .columna-33-3{
-  width:33.3%;
+  width:50%;
   float: left;
+  padding-left:60px;
 }
 .container__flex p {
   margin-bottom: 30px;
@@ -293,7 +297,6 @@ h1, h2, h3, h4, h5, h6{
     background: rgba(0, 0, 0, 0.85);
   }
   .banner{
-    margin-top: -150px;
     z-index: -1000;
   }
   .banner__content {
@@ -315,13 +318,12 @@ h1, h2, h3, h4, h5, h6{
     object-fit: cover;
   }
   .columna-33-3{
-    width:33.3%;
+    width:50%;
     float: left;
+    padding-left: 60px;
   }
   .container__flex p {
     margin-bottom: 30px;
   }
-
-
 
 }

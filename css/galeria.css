@@ -1,0 +1,20 @@
+
+
+/*-------------------------------Estilos Principales--------------------------*/
+.img-galeria {
+    object-fit: cover;
+    cursor: pointer;
+    padding: 10px;
+    max-width: 350px;
+    transition: all 0.5s;
+}
+.img-galeria:hover {
+    transform: scale(1.02);
+}
+.contenedor--flex {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
